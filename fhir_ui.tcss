@@ -1,0 +1,99 @@
+Screen {
+    layout: vertical;
+    align: center top;
+    padding: 2 4;
+    background: #1e1e2f;
+    color: #ffffff;
+    overflow: auto auto;
+}
+
+ScrollView {
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+
+}
+
+DataTable {
+    min-width: 150vw; /* Adjust based on your layout needs */
+}
+
+
+TabbedContent {
+    height: 100%;
+    width: 100%;
+}
+
+
+TabPane {
+    padding: 1;
+    display: none;
+}
+
+TabPane.active {
+    padding: 1;
+    display: block;
+}
+
+
+Vertical {
+    min-height: 20;
+}
+
+#title {
+    text-style: bold;
+    padding: 1 2;
+    background: #4c4cff;
+    color: white;
+    width: 100%;
+}
+
+#count-label {
+    text-style: bold italic;
+    padding: 1;
+    background: #303050;
+    color: #c0c0ff;
+    dock: right;
+}
+
+#grid-container {
+    width: 90%;
+    height: 80%;     /* ✅ Make sure it has vertical space */
+    padding: 1;
+    background: #2a2a40;
+    border: round #4c4cff;
+    overflow: auto;   /* ✅ If needed */
+}
+
+DataTable {
+    height: 100%;
+    border: solid #5555ff;
+    color: white;
+}
+
+#footer-bar {
+    height: auto;              /* Let it grow with content, or use a fixed height like 3 */
+    padding: 0 2;
+    background: #1f1f30;
+    color: white;
+    align-horizontal: left;
+    align-vertical: middle;    /* 👈 Ensures all children are aligned vertically */
+}
+
+#footer-label {
+    width: 1fr; 
+    background: #1f1f30;
+    color: #00ffaa;
+    content-align: left middle;
+    padding: 0 1;
+}
+
+
+#obs-count-label {
+    text-style: bold;
+    dock: right;
+    content-align: right middle;
+    color: #00ffaa;
+    padding: 0 1;
+}

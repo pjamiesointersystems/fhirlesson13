@@ -1,0 +1,23 @@
+Static {
+    background: blue;
+    border: solid white;
+    padding: 1 1;
+    margin: 2 2;
+    text-align: center;
+}
+
+.patientId {
+    color: black;
+    background: red;
+    border: dashed purple;
+    padding: 1 1;
+    margin: 2 6;
+}
+
+.patientDetails{
+    color: black;
+    background: green;
+    border: dashed purple;
+    padding: 1 1;
+    margin: 2 6;
+}

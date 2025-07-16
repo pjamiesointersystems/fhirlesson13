@@ -1,0 +1,24 @@
+{
+        // Enable auto-import suggestions
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+
+  // Point at your venv’s site-packages
+  "python.analysis.extraPaths": [
+    "./fhirclient/lib/python3.10/site-packages"
+  ],
+
+  // Prevent Pylance from excluding the fhirclient folder
+  "python.analysis.exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    // remove the default “**/.*” so our venv isn’t auto-excluded:
+  ],
+
+  // If you still need to hide dot-folders, add them explicitly
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true
+  }
+      
+}
