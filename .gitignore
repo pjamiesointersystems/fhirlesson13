@@ -174,7 +174,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-<<<<<<< HEAD
-.DS_Store
-=======
->>>>>>> b4f667b (First commit)

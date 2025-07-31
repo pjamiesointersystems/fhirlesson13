@@ -1,0 +1,6 @@
+PatientWidget Label {
+  padding: 2 4;
+  margin: 2 2;
+  background: rgba(42, 6, 133, 1);
+  color: #ffffff;
+}
