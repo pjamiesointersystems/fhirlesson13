@@ -1,6 +1,7 @@
 
 from textual.app import App, ComposeResult
 from textual.widgets import DataTable, Header, Footer
+from rich.markup import escape
 
 class SimpleApp(App):
     
